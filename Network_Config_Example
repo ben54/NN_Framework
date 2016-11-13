@@ -1,0 +1,31 @@
+{
+	"type": "feedforward"
+	"learningRate": {
+		startingValue: 
+		endingValue: 
+		annealingFunction: "Linear"
+	},
+	"momentum": {},
+	"training":{
+		batchSize:
+		maxNumEpochs:
+		
+	},
+	"dropout": {
+		
+	},
+	"layers": {
+		"convolution": {
+			dropout: , 
+			kernelSize: ,  
+			stride: 
+		},
+		"pooling": {},
+		"activation": {},
+		"convolution": {},
+		"pooling": {},
+		"activation": {},
+		"dense": {}
+		
+	}
+}
